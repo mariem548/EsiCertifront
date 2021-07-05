@@ -21,7 +21,15 @@ p {
 }
 
 .spacer {
-    flex: 0.5;
+    flex: 0.6;
+}
+
+.ligne {
+    border-bottom: 1rem solid;
+}
+
+.space {
+    flex: 0.2;
 }
 
 .toolbar {
@@ -32,9 +40,10 @@ p {
     height: 60px;
     display: flex;
     align-items: center;
-    background-color: #66ff7a;
+    background-color: #fff;
     color: white;
     font-weight: 600;
+    border-bottom: 2px solid grey;
 }
 
 .toolbar img {
@@ -260,6 +269,14 @@ svg#clouds {
     left: -230px;
     z-index: -10;
     width: 1920px;
+}
+
+.arrondie {
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
 }
 
 
