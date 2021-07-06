@@ -94,6 +94,23 @@ svg.material-icons:not(:last-child) {
     margin-top: 16px;
 }
 
+.img1 {
+    position: absolute;
+    left: 0px;
+    bottom: 80px;
+}
+
+.img2 {
+    position: absolute;
+    bottom: 80px;
+}
+
+.img3 {
+    position: absolute;
+    left: 1500px;
+    bottom: 80px;
+}
+
 .card {
     border-radius: 4px;
     border: 1px solid #eee;
