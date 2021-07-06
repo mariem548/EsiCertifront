@@ -6,17 +6,23 @@ import { AppComponent } from './app.component';
 import { ConnexionComponent } from './connexion/connexion.component';
 import { AcceuilComponent } from './acceuil/acceuil.component';
 import { RegisterComponent } from './register/register.component';
+import { HomeclientComponent } from './homeclient/homeclient.component';
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
     ConnexionComponent,
     AcceuilComponent,
-    RegisterComponent
+    RegisterComponent,
+    HomeclientComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
+
+
   ],
   providers: [],
   bootstrap: [AppComponent]

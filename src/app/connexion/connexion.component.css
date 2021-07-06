@@ -1,5 +1,4 @@
 input[type=text] {
-    width: 25% !important;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -11,7 +10,6 @@ input[type=text] {
 }
 
 input[type=submit] {
-    width: 14% !important;
     background-color: #35e022;
     color: white;
     padding: 14px 20px;
@@ -46,4 +44,11 @@ div {
     position: absolute;
     left: 1361px;
     top: -20px;
+}
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
 }
