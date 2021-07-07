@@ -7,6 +7,7 @@ import { ConnexionComponent } from './connexion/connexion.component';
 import { AcceuilComponent } from './acceuil/acceuil.component';
 import { RegisterComponent } from './register/register.component';
 import { HomeclientComponent } from './homeclient/homeclient.component';
+import { HomecandidatComponent } from './homecandidat/homecandidat.component';
 
 
 
@@ -16,7 +17,8 @@ import { HomeclientComponent } from './homeclient/homeclient.component';
     ConnexionComponent,
     AcceuilComponent,
     RegisterComponent,
-    HomeclientComponent
+    HomeclientComponent,
+    HomecandidatComponent
   ],
   imports: [
     BrowserModule,
